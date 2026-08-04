@@ -1,0 +1,15 @@
+{
+	"name": "adfsynapseproject",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e19f5f3f-3ba6-4670-99d0-2095c73fce77",
+		"tenantId": "1170d55b-3d87-4d92-822c-430ffb866dd5"
+	}
+}
