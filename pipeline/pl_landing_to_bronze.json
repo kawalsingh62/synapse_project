@@ -8,6 +8,10 @@
 				"dependsOn": [],
 				"userProperties": [],
 				"typeProperties": {
+					"items": {
+						"value": "@pipeline().parameters.FileArray",
+						"type": "Expression"
+					},
 					"activities": [
 						{
 							"name": "Copy_landing_to_bronze",
