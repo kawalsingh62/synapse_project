@@ -1,0 +1,12 @@
+{
+	"name": "AzureSynapseArtifacts",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSynapseArtifacts",
+		"typeProperties": {
+			"endpoint": "https://synapseprojectkawal.dev.azuresynapse.net",
+			"authentication": "MSI",
+			"workspaceResourceId": "/subscriptions/7fc35d28-9126-424a-87d2-15a0cb756bb1/resourceGroups/synapse_project/providers/Microsoft.Synapse/workspaces/synapseprojectkawal"
+		}
+	}
+}
