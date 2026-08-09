@@ -80,7 +80,7 @@
 									"type": "DatasetReference",
 									"parameters": {
 										"bronze_folder": {
-											"value": "netflix_bronze/@{item().file_name}",
+											"value": "netflix_bronze/@{item().folder_name}",
 											"type": "Expression"
 										},
 										"bronze_file": {
