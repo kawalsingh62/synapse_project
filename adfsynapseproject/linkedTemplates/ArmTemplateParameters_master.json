@@ -8,6 +8,18 @@
 		"ls_adls_connectionString": {
 			"value": ""
 		},
+		"ls_adls_2_accountKey": {
+			"value": ""
+		},
+		"AzureSynapseArtifacts_properties_typeProperties_endpoint": {
+			"value": "https://synapseprojectkawal.dev.azuresynapse.net"
+		},
+		"ls_adls_2_properties_typeProperties_url": {
+			"value": "https://storageforsynapseproject.dfs.core.windows.net/"
+		},
+		"ls_http_github_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
+		},
 		"containerUri": {
 			"value": ""
 		},

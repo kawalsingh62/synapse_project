@@ -11,6 +11,22 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'ls_adls'"
 		},
+		"ls_adls_2_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'ls_adls_2'"
+		},
+		"AzureSynapseArtifacts_properties_typeProperties_endpoint": {
+			"type": "string",
+			"defaultValue": "https://synapseprojectkawal.dev.azuresynapse.net"
+		},
+		"ls_adls_2_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://storageforsynapseproject.dfs.core.windows.net/"
+		},
+		"ls_http_github_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://raw.githubusercontent.com/"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -40,6 +56,18 @@
 					},
 					"ls_adls_connectionString": {
 						"value": "[parameters('ls_adls_connectionString')]"
+					},
+					"ls_adls_2_accountKey": {
+						"value": "[parameters('ls_adls_2_accountKey')]"
+					},
+					"AzureSynapseArtifacts_properties_typeProperties_endpoint": {
+						"value": "[parameters('AzureSynapseArtifacts_properties_typeProperties_endpoint')]"
+					},
+					"ls_adls_2_properties_typeProperties_url": {
+						"value": "[parameters('ls_adls_2_properties_typeProperties_url')]"
+					},
+					"ls_http_github_properties_typeProperties_url": {
+						"value": "[parameters('ls_http_github_properties_typeProperties_url')]"
 					}
 				}
 			},
