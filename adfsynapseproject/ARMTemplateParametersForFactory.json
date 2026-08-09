@@ -18,7 +18,7 @@
 			"value": "https://storageforsynapseproject.dfs.core.windows.net/"
 		},
 		"ls_http_github_properties_typeProperties_url": {
-			"value": "https://raw.githubusercontent.com/"
+			"value": "https://raw.githubusercontent.com"
 		}
 	}
 }
